@@ -1,7 +1,7 @@
 .clock-container{
     display: flex;
     gap:40px;
-    flex-wrap: wrap;
+    scale:0.3;
 }
 
 .digit-container{
