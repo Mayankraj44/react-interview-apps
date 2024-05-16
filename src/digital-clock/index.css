@@ -1,0 +1,86 @@
+.clock-container{
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+}
+
+.digit-container{
+    position:relative;
+    height:160px;
+    width: 80px;
+    margin-right:20px
+}
+.digit{
+    height: 80px;
+    width: 20px;
+    background: white;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
+}
+.digit.digit-0 {
+    position: absolute;
+    visibility: visible;
+    rotate: 90deg;
+    top: -26%;
+    left: 37%;
+}
+
+.digit.digit-5 {
+    position: absolute;
+    visibility: visible;
+    /* rotate: 90deg; */
+    top: 0px;
+    left: -11px;
+}
+
+.digit.digit-4 {
+    position: absolute;
+    visibility: visible;
+    /* rotate: 90deg; */
+    bottom: 0px;
+    left: -11px;
+}
+
+.digit.digit-3 {
+    position: absolute;
+    visibility: visible;
+    rotate: 90deg;
+    bottom: -44px;
+    left: 36%;
+}
+
+.digit.digit-1 {
+    position: absolute;
+    visibility: visible;
+    /* rotate: 90deg; */
+    top: 0px;
+    right: -10px;
+}
+
+.digit.digit-2 {
+    position: absolute;
+    visibility: visible;
+    /* rotate: 90deg; */
+    bottom: 0px;
+    right: -10px;
+}
+.digit-6 {
+    position: absolute;
+    visibility: visible;
+    rotate: 90deg;
+    top: 25%;
+    left: 37%;
+}
+
+.seperator{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    justify-content: center;
+
+}
+.seperator span{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: white;
+}
