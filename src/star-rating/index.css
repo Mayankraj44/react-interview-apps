@@ -1,0 +1,55 @@
+.star-container {
+  display: flex;
+  gap: 5px;
+}
+.star {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background-color: white;
+}
+.star:hover {
+  cursor: pointer;
+}
+/* .star::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  position: absolute;
+  top: 1px;
+  left: 1px;
+} */
+
+.full {
+  background-color: yellow;
+}
+.not-marked {
+  background-color: white;
+}
+/* .half {
+  background-image: linear-gradient(to right, yellow 50%, white 50%);
+} */
