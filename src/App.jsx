@@ -1,17 +1,14 @@
+import { Link, Outlet } from "react-router-dom";
 import "./App.css";
-import GridSequence from "./grid-sequence/GridSequence";
-import DigitalClock from "./digital-clock/DigitalClock";
-import TrafficLights from "./traffic-lights/TrafficLights";
-import StartRating from "./star-rating/StartRating";
-import { useHover } from "./custom-hooks/useHover";
+import Info from "./Info";
 
 function App() {
-  const [ref,state]=useHover()
   return (
     <>
-    <div ref={ref}>{state? 'Hoverd' : ' Not Hovered' }</div>
-      {/* <TrafficLights /> */}
-      {/* <DigitalClock /> */}
+    <header className="mb-12">
+      <Link to="/">Home</Link>
+      </header>
+      <Outlet />
     </>
   );
 }
