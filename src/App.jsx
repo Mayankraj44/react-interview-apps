@@ -5,8 +5,8 @@ import Info from "./Info";
 function App() {
   return (
     <>
-    <header className="mb-12">
-      <Link to="/">Home</Link>
+      <header className="mb-12">
+        <Link to="/">Home</Link>
       </header>
       <Outlet />
     </>
