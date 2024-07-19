@@ -28,6 +28,10 @@ export const APP_NAMES = [
     url: "/infinite-scroll",
     name: "Infinite Scroll",
   },
+  {
+    url: "/accordion",
+    name: "Accordion",
+  },
 ];
 
 export const MEME_API_URL="https://meme-api.com/gimme/20"
