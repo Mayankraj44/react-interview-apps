@@ -24,4 +24,10 @@ export const APP_NAMES = [
     url: "/debounce",
     name: "Debounce",
   },
+  {
+    url: "/infinite-scroll",
+    name: "Infinite Scroll",
+  },
 ];
+
+export const MEME_API_URL="https://meme-api.com/gimme/20"

@@ -6,6 +6,7 @@ import StartRating from "./star-rating/StartRating";
 import TrafficLights from "./traffic-lights/TrafficLights";
 import Info from "./Info";
 import { Debounce } from "./custom-hooks/debounce/Debounce";
+import InfiniteScroll from "./infinite-scroll/InfiniteScroll";
 
 export const routerConfig = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ export const routerConfig = createBrowserRouter([
       {
         path: "/debounce",
         element: <Debounce />,
+      },
+      {
+        path: "/infinite-scroll",
+        element: <InfiniteScroll />,
       },
     ],
   },
