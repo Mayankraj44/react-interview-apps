@@ -7,7 +7,8 @@ import TrafficLights from "./traffic-lights/TrafficLights";
 import Info from "./Info";
 import { Debounce } from "./custom-hooks/debounce/Debounce";
 import InfiniteScroll from "./infinite-scroll/InfiniteScroll";
-import Accordion  from "./accordion/Accordion"
+import Accordion from "./accordion/Accordion";
+import Solider from "./solider/Solider";
 
 export const routerConfig = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ export const routerConfig = createBrowserRouter([
       {
         path: "/accordion",
         element: <Accordion />,
+      },
+      {
+        path: "/solider",
+        element: <Solider />,
       },
     ],
   },

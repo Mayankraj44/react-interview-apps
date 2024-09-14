@@ -32,6 +32,10 @@ export const APP_NAMES = [
     url: "/accordion",
     name: "Accordion",
   },
+  {
+    url: "/solider",
+    name: "Solider",
+  },
 ];
 
-export const MEME_API_URL="https://meme-api.com/gimme/20"
+export const MEME_API_URL = "https://meme-api.com/gimme/20";
