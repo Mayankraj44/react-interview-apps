@@ -1,0 +1,26 @@
+.board{
+    background-color: brown;
+    padding:20px
+}
+.row{
+    display: flex;
+}
+.cell{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.even{
+    background-color: black;
+}
+.odd{
+    background-color: white;
+}
+.active-cell{
+    background-color: orange;
+}
+.can-active-cell{
+    background-color: green;
+}
