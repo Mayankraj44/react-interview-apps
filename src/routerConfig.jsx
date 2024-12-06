@@ -10,6 +10,7 @@ import InfiniteScroll from "./infinite-scroll/InfiniteScroll";
 import Accordion from "./accordion/Accordion";
 import Solider from "./solider/Solider";
 import ChessBoard from "./chess-board/ChessBoard";
+import { UseCopy } from "./custom-hooks/use-copy/UseCopy";
 
 export const routerConfig = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ export const routerConfig = createBrowserRouter([
       {
         path: "/chess-board",
         element: <ChessBoard />,
+      },
+      {
+        path: "/use-copy",
+        element: <UseCopy />,
       },
     ],
   },

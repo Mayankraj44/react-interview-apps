@@ -40,6 +40,10 @@ export const APP_NAMES = [
     url: "/chess-board",
     name: "ChessBoard",
   },
+  {
+    url: "/use-copy",
+    name: "UseCopy",
+  },
 ];
 
 export const MEME_API_URL = "https://meme-api.com/gimme/20";
@@ -47,4 +51,4 @@ export const MEME_API_URL = "https://meme-api.com/gimme/20";
 
 export const CHESS_BOARD_LAYOUT = [[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]]
 
-export const KNIGHT_POSSIBLE_MOVES=[[-1,-2],[1,-2],[-2,-1],[2,-1],[-1,2],[1,2],[-2,1],[2,1]]
+export const KNIGHT_POSSIBLE_MOVES = [[-1, -2], [1, -2], [-2, -1], [2, -1], [-1, 2], [1, 2], [-2, 1], [2, 1]]
