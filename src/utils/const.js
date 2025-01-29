@@ -44,6 +44,10 @@ export const APP_NAMES = [
     url: "/use-copy",
     name: "UseCopy",
   },
+  {
+    url: "/nested-comments",
+    name: "Nested Comments",
+  },
 ];
 
 export const MEME_API_URL = "https://meme-api.com/gimme/20";

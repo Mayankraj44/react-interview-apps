@@ -11,6 +11,7 @@ import Accordion from "./accordion/Accordion";
 import Solider from "./solider/Solider";
 import ChessBoard from "./chess-board/ChessBoard";
 import { UseCopy } from "./custom-hooks/use-copy/UseCopy";
+import NestedComments from "./nested-comments/NestedComments";
 
 export const routerConfig = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ export const routerConfig = createBrowserRouter([
         path: "/use-copy",
         element: <UseCopy />,
       },
+      {
+        path: "/nested-comments",
+        element: <NestedComments />,
+      }
     ],
   },
 ]);
