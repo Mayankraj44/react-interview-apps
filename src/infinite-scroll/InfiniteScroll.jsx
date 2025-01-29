@@ -16,7 +16,7 @@ export default function InfiniteScroll(){
     },[])
 
     function handleScroll(){
-        if(window.innerHeight+window.scrollY>=document.body.scrollHeight){
+        if(window.innerHeight+window.scrollY+10>=document.body.scrollHeight){
             fetchData()
         }
     }
