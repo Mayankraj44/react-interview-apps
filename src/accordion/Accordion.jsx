@@ -39,6 +39,6 @@ export default function Accordion() {
     }
     console.log(openIndex)
     return <div className="w-screen px-24">
-        {data.map((accord, ind) => <AccordionBox key={ind} data={accord} isOpen={openIndex.find(ele=>ele===ind)} clickHandler={() => handleAccordionClick(ind)} />)}
+        {data.map((accord, ind) => <AccordionBox key={ind} data={accord} isOpen={!!openIndex.some(ele=>ele===ind)} clickHandler={() => handleAccordionClick(ind)} />)}
     </div>
 }
