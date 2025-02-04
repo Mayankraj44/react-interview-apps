@@ -10,7 +10,9 @@ export default function useFetch(url) {
     try {
       setLoading(true);
       setError(false);
-      const result = await fetch(url, { signal }).then((res) => res.json());
+      const result = await fetch(url, { signal: controller.signal }).then(
+        (res) => res.json()
+      );
       if (!result.ok) {
         throw new Error("Something went wrong");
       } else {
@@ -18,17 +20,16 @@ export default function useFetch(url) {
       }
     } catch (err) {
       setError(error);
-      setData(null)
+      setData(null);
     } finally {
       setLoading(false);
     }
   };
-
 
   useEffect(() => {
     fetchData();
     return () => controller.abort();
   }, []);
 
-  return { data, loading, error, refetch:fetchData };
+  return { data, loading, error, refetch: fetchData };
 }
