@@ -7,11 +7,11 @@ export default function useFetch(url) {
   const [error, setError] = useState(false);
   const controller = new AbortController();
 
-  const fetchData = async () => {
+  const fetchData = async (newUrl = url) => {
     try {
       setLoading(true);
       setError(false);
-      const result = await axios.get(url, { signal: controller.signal });
+      const result = await axios.get(newUrl, { signal: controller.signal });
       if (!result.data) {
         throw new Error("Something went wrong");
       } else {
