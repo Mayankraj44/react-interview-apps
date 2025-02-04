@@ -13,6 +13,8 @@ import ChessBoard from "./chess-board/ChessBoard";
 import { UseCopy } from "./custom-hooks/use-copy/UseCopy";
 import NestedComments from "./nested-comments/NestedComments";
 import RevolvingLetters from "./revolving-letters/RevolvingLetters";
+import PaginationFrontend from "./pagination-fe/PaginationFrontend";
+import PaginationBackend from "./pagination-be/PaginationBackend";
 
 export const routerConfig = createBrowserRouter([
   {
@@ -70,6 +72,14 @@ export const routerConfig = createBrowserRouter([
       {
         path: "/revolving-word",
         element: <RevolvingLetters />,
+      },
+      {
+        path: "/pagination-fe",
+        element: <PaginationFrontend />,
+      },
+      {
+        path: "/pagination-be",
+        element: <PaginationBackend />,
       },
     ],
   },

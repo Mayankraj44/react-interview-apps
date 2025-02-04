@@ -52,6 +52,14 @@ export const APP_NAMES = [
     url: "/revolving-word",
     name: "Revolving Word",
   },
+  {
+    url: "/pagination-fe",
+    name: "Pagination Frontend",
+  },
+  {
+    url: "/pagination-be",
+    name: "Pagination Backend",
+  },
 ];
 
 export const MEME_API_URL = "https://meme-api.com/gimme/20";
@@ -77,3 +85,5 @@ export const KNIGHT_POSSIBLE_MOVES = [
   [-2, 1],
   [2, 1],
 ];
+
+export const PAGINTION_API_BASE_URL = "https://dummyjson.com/products";
