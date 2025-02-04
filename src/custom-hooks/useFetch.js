@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 export default function useFetch(url) {
@@ -10,13 +11,11 @@ export default function useFetch(url) {
     try {
       setLoading(true);
       setError(false);
-      const result = await fetch(url, { signal: controller.signal }).then(
-        (res) => res.json()
-      );
-      if (!result.ok) {
+      const result = await axios.get(url, { signal: controller.signal });
+      if (!result.data) {
         throw new Error("Something went wrong");
       } else {
-        setData(res.data);
+        setData(result.data);
       }
     } catch (err) {
       setError(error);
