@@ -1,0 +1,12 @@
+.spinning {
+  display: inline-block;
+  animation: spin infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes spin {
+  0%,
+  20% {
+    transform: rotateY(360deg);
+  }
+}

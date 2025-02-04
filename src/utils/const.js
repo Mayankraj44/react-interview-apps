@@ -48,11 +48,32 @@ export const APP_NAMES = [
     url: "/nested-comments",
     name: "Nested Comments",
   },
+  {
+    url: "/revolving-word",
+    name: "Revolving Word",
+  },
 ];
 
 export const MEME_API_URL = "https://meme-api.com/gimme/20";
 
+export const CHESS_BOARD_LAYOUT = [
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0],
+];
 
-export const CHESS_BOARD_LAYOUT = [[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]]
-
-export const KNIGHT_POSSIBLE_MOVES = [[-1, -2], [1, -2], [-2, -1], [2, -1], [-1, 2], [1, 2], [-2, 1], [2, 1]]
+export const KNIGHT_POSSIBLE_MOVES = [
+  [-1, -2],
+  [1, -2],
+  [-2, -1],
+  [2, -1],
+  [-1, 2],
+  [1, 2],
+  [-2, 1],
+  [2, 1],
+];

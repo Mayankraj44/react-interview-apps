@@ -12,6 +12,7 @@ import Solider from "./solider/Solider";
 import ChessBoard from "./chess-board/ChessBoard";
 import { UseCopy } from "./custom-hooks/use-copy/UseCopy";
 import NestedComments from "./nested-comments/NestedComments";
+import RevolvingLetters from "./revolving-letters/RevolvingLetters";
 
 export const routerConfig = createBrowserRouter([
   {
@@ -65,7 +66,11 @@ export const routerConfig = createBrowserRouter([
       {
         path: "/nested-comments",
         element: <NestedComments />,
-      }
+      },
+      {
+        path: "/revolving-word",
+        element: <RevolvingLetters />,
+      },
     ],
   },
 ]);
