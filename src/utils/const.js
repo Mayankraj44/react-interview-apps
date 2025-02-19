@@ -87,3 +87,6 @@ export const KNIGHT_POSSIBLE_MOVES = [
 ];
 
 export const PAGINTION_API_BASE_URL = "https://dummyjson.com/products";
+export const PAGINATION_FE_BASE_URL=PAGINTION_API_BASE_URL + "?limit=2000&select=id,title,description,price,thumbnail";
+//Limit 2000 to mimic that all product data is get in 1 singel api call
+export const PAGE_LIMIT_OPTIONS=[5,10,15,20]
