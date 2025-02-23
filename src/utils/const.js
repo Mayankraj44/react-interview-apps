@@ -60,6 +60,10 @@ export const APP_NAMES = [
     url: "/pagination-be",
     name: "Pagination Backend",
   },
+  {
+    url: "/progress-bar",
+    name: "Progress bar",
+  },
 ];
 
 export const MEME_API_URL = "https://meme-api.com/gimme/20";

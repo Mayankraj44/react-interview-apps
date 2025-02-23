@@ -15,6 +15,7 @@ import NestedComments from "./nested-comments/NestedComments";
 import RevolvingLetters from "./revolving-letters/RevolvingLetters";
 import PaginationFrontend from "./pagination-fe/PaginationFrontend";
 import PaginationBackend from "./pagination-be/PaginationBackend";
+import ProgressBar from "./progress-bar/ProgressBar";
 
 export const routerConfig = createBrowserRouter([
   {
@@ -80,6 +81,10 @@ export const routerConfig = createBrowserRouter([
       {
         path: "/pagination-be",
         element: <PaginationBackend />,
+      },
+      {
+        path: "/progress-bar",
+        element: <ProgressBar />,
       },
     ],
   },
