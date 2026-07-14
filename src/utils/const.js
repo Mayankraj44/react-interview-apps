@@ -41,6 +41,10 @@ export const APP_NAMES = [
     name: "ChessBoard",
   },
   {
+    url: "/minesweeper",
+    name: "Minesweeper",
+  },
+  {
     url: "/use-copy",
     name: "UseCopy",
   },

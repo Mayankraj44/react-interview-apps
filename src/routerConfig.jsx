@@ -10,6 +10,7 @@ import InfiniteScroll from "./infinite-scroll/InfiniteScroll";
 import Accordion from "./accordion/Accordion";
 import Solider from "./solider/Solider";
 import ChessBoard from "./chess-board/ChessBoard";
+import Minesweeper from "./minesweeper/Minesweeper";
 import { UseCopy } from "./custom-hooks/use-copy/UseCopy";
 import NestedComments from "./nested-comments/NestedComments";
 import RevolvingLetters from "./revolving-letters/RevolvingLetters";
@@ -60,6 +61,10 @@ export const routerConfig = createBrowserRouter([
       {
         path: "/chess-board",
         element: <ChessBoard />,
+      },
+      {
+        path: "/minesweeper",
+        element: <Minesweeper />,
       },
       {
         path: "/use-copy",
