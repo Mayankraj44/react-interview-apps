@@ -1,0 +1,14 @@
+.slider-outer{
+    background-color: white;
+    width: 500px;
+    height:100px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0px 10px;
+}
+.slider-inner{
+    background-color: white;
+    height:100px;
+    background-color: green;
+    cursor: pointer;
+}

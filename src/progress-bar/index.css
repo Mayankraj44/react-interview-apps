@@ -1,0 +1,12 @@
+.progress-container{
+    border:solid 1px white;
+    height:50px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 10px 0px
+}
+.progress-inner{
+    height: 50px;
+    background-color: green;
+    transition: width 1s ease-in-out;
+}
