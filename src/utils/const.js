@@ -91,3 +91,16 @@ export const KNIGHT_POSSIBLE_MOVES = [
 ];
 
 export const PAGINTION_API_BASE_URL = "https://dummyjson.com/products";
+
+export const MINESWEEPER_DIFFICULTY_LEVELS = [
+  { "level": "Easy", "size": 9, "mines": 10 },
+  { "level": "Medium", "size": 16, "mines": 40 },
+  { "level": "Hard", "size": 24, "mines": 99 }
+]
+
+export const MINESWEEPER_GAME_STATE = {
+  NOT_STARTED: "NOT_STARTED",
+  IN_PROGRESS: "IN_PROGRESS",
+  OVER: "OVER",
+  WON: "WON"
+}
